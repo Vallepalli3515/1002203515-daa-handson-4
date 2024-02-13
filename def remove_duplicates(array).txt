@@ -6,7 +6,7 @@ def remove_duplicates(array):
     array[:] = unique_array
 
 if __name__ == '__main__':
-    array = [1, 2, 7, 3, 4, 9, 4, 5, 5]
+    array = [1, 2, 2, 3, 4, 4, 4, 5, 5]
     print("Original Array: ", array)
     remove_duplicates(array)
     print("Array after removing duplicates: ", array)
