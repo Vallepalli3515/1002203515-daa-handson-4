@@ -1,0 +1,20 @@
+problem-1:
+
+Time Complexity:
+Building the heap:
+
+This takes O(k log k) time since at most k elements are pushed onto the heap, and each push operation takes O(log k) time.
+Popping and Pushing elements:
+
+Each element is popped from the heap once, and each element is pushed onto the heap at most once.
+In the worst case, there are n elements across all arrays.
+Therefore, popping and pushing operations together take O(n log k) time.
+Overall Time Complexity:
+
+O(k log k) + O(n log k) = O(n log k)
+
+problem-2:
+
+Time Complexity:
+the remove_duplicates function has a linear time complexity of O(n), 
+making it efficient for removing duplicates from arrays of any size.
